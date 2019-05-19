@@ -1,6 +1,6 @@
  Prerrequisites:
 
-1. You need a linux machine (virtual or physical, doesn't matter) and access to *sudo*.
+1. You need a linux machine (virtual or physical, doesn't matter as long as it has internet acess) and access to *sudo*.
 2. Your linux needs:
   A. An hypervisor (Tested in Virtualbox, KVM is also recommended but haven't tried it yet)
   B. curl
