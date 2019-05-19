@@ -2,8 +2,8 @@
 
 1. You need a linux machine (virtual or physical, doesn't matter as long as it has internet acess) and access to *sudo*.
 2. Your linux needs:
-  A. An hypervisor (Tested in Virtualbox, KVM is also recommended but haven't tried it yet)
-  B. curl
+  A. An hypervisor (Tested in Virtualbox, KVM is also recommended but haven't tried it yet).
+  B. Curl
  
 The include script _run_all.sh_ will install kubectl and minikube.
 If you don't want to use the script, you will need to install kubectl and minikube on your own
