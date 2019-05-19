@@ -6,17 +6,17 @@
   * curl
 
  
-The include script _run_all.sh_ will install kubectl and minikube.
+The included script _run_all.sh_ will install kubectl and minikube. 
 If you don't want to use the script, you will need to install kubectl and minikube on your own
 
-The script is tested on linux, it may succeed at installing kubectl and minikube in a mac, but it is not guaranteed
-Using the script will perform below actions
+The script is tested on linux, it may succeed at installing kubectl and minikube in a mac, but it is not guaranteed.
+Using the script, will perform below actions:
  1. Download and install kubectl
  2. Download and install minikube
  3. If minikube was already installed, it will wipe out your configs
  4. Run the second script _start.sh_ which will create the kubernetes cluster and ends up logging you into the postgresql node
 
 The easiest way to run this is:
- 1. Clone this repo (into a linux with virtualbox and curl)
+ 1. Clone this repo (into a linux with virtualbox and curl installed and internet access)
  2. Run _run_all.sh_ with the command `./run_all.sh`
  3. Whenever you want to stop the cluster, use the script _clean_stop.sh_ by issuing the command `./clean_stop.sh`
